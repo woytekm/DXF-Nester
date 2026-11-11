@@ -1,3 +1,5 @@
+# !AI coded 
+
 Simple DXF nester in python, GUI works weel on OS X. Coded using free version of Claude @2026.
 
 # dxfnest
