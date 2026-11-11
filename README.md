@@ -1,3 +1,5 @@
+Simple DXF nester in python, GUI works weel on OS X. Coded using free version of Claude @2026.
+
 # dxfnest
 
 Nest DXF parts onto plywood sheets from the command line. Input: a CSV of parts and a
