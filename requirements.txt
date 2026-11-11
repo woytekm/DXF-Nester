@@ -1,0 +1,17 @@
+# Third-party Python modules (Python 3.11 or newer).
+# Install them into your normal site-packages, no virtual environment needed:
+#     python3 -m pip install -r requirements.txt
+#
+# For the command line program, dxfnest.py:
+ezdxf>=1.1         # reads and writes the DXF files
+shapely>=2.0       # geometry: overlap and distance checks, label placement, tool-reach analysis
+pillow>=10.1       # PNG previews only; skip it if you always run with --no-png
+#
+# Additionally for the window, dxfnest_gui.py:
+dearpygui>=1.10    # the window (tested with 2.3.1; text setup for 1.x is untested)
+#
+# These come along automatically with the above (listed in case you install by hand):
+#   numpy>=1.26         (shapely, ezdxf; the GUI also uses it directly to hand images to the window)
+#   pyparsing>=3.0      (ezdxf)
+#   typing_extensions>=4.6   (ezdxf)
+#   fonttools           (ezdxf)

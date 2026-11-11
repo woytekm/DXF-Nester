@@ -1,0 +1,3 @@
+# Only for running the test suite (optional):
+pytest
+cairosvg   # optional: 4 SVG tests are skipped without it (needs the Cairo system library)
