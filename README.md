@@ -1,4 +1,4 @@
-# !AI coded 
+# !Coded by AI
 
 Simple DXF nester in python. A command line tool and a separate GUI wrapper. GUI tested and works well on OS X. 
 
